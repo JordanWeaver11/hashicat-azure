@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "test-rg" {
   name     = "my-test-rg"
   location = "centralus"
